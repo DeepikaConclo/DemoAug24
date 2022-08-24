@@ -1,6 +1,6 @@
 import { LightningElement, track } from 'lwc';
-export default class HelloWorld extends LightningElement {
-  
+//export default class demolwc extends LightningElement {
+    export default class demolwc extends LightningElement {
   @track todoList=[];
 
   newlist;
@@ -19,6 +19,8 @@ export default class HelloWorld extends LightningElement {
 
   this.newlist='';
 }
+
+
 
 delnewList(event){
 
