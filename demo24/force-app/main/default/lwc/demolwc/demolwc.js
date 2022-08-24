@@ -20,6 +20,8 @@ export default class HelloWorld extends LightningElement {
   this.newlist='';
 }
 
+
+
 delnewList(event){
 
     let idDelete = event.target.name;
