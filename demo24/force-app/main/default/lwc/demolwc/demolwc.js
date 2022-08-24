@@ -20,6 +20,8 @@ import { LightningElement, track } from 'lwc';
   this.newlist='';
 }
 
+
+
 delnewList(event){
 
     let idDelete = event.target.name;
